@@ -4,7 +4,7 @@ from googleapiclient.http import MediaFileUpload
 from google.oauth2.service_account import Credentials
 
 # Set up credentials
-credentials_path = 'C:/Users/cronus/Desktop/grivepy/creds.json'
+credentials_path = 'C:/Users/cronus/Desktop/grivepy/creds.json' #replace your own
 credentials = Credentials.from_service_account_file(credentials_path)
 drive_service = build('drive', 'v3', credentials=credentials)
 
@@ -24,10 +24,10 @@ def upload_file(file_path, folder_id):
     print(f'File uploaded: {file_name} (ID: {file["id"]})')
 
 # Specify the folder ID where you want to upload the files
-folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'
+folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI' # replace your own
 
 # Specify the folder path from which you want to upload the files
-folder_path = r'F:\caferoo\202306__'
+folder_path = r'F:\caferoo\202306__' #replace your own
 
 
 # Retrieve file paths from the folder
