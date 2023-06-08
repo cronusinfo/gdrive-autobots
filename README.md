@@ -1,5 +1,8 @@
 # gdrive-autobots
-A tool written in python code used to automate the process of transferring a file from your local device going to gdrive
+📖 How it works
+# Automation Tool Documentation
+# Overview
++ The Automation Tool is a Python script designed to automate the transfer of large files from a local drive to Google Drive. It utilizes the Google Drive API to facilitate the file upload process
 
 # Usage and installation
 1. Clone the repository using `git clone https://github.com/cronusinfo/gdrive-autobots.git`.
@@ -30,11 +33,19 @@ ex `folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'`
 + Specify the folder path from which you want to upload the files
 ex `folder_path = r'F:\caferoo\202306__'`
 
-
-3. run your script by calling out the script from your terminal `python3 gdrive.py`
+3. run your script by calling out the script from your terminal 
++ `python3 gdrive.py`
 note make sure you are on the right directory
 
-📖 How it works
+#  File Transfer Process
+The script will initiate the transfer process, uploading each file from the local directory to the specified Google Drive folder. Progress and status updates will be displayed in the console.
+
+:octocat:
+# Additional Notes
++ The Automation Tool uses the Google Drive API to upload files to Google Drive. Make sure you have sufficient permissions and storage space available in your Google Drive account.
++ Large files may take some time to upload depending on your internet connection speed. Please be patient during the transfer process.
++ The script uploads files one at a time due to limitations in the Google Drive API. This ensures reliable and efficient file transfer.
+
 
 
 
