@@ -2,9 +2,9 @@
 A tool written in python code used to automate the process of transferring a file from your local device going to gdrive
 
 # Usage and installation
-+ 1. Clone the repository using `git clone https://github.com/cronusinfo/gdrive-autobots.git`.
+1. Clone the repository using `git clone https://github.com/cronusinfo/gdrive-autobots.git`.
 # Install the required dependencies:
-+ 2. Install the required dependencies `pip install google-api-python-client google-auth`
+2. Install the required dependencies `pip install google-api-python-client google-auth`
 
 # Setup your API & json
 + Obtain the credentials for your Google Drive API service account:
@@ -31,8 +31,10 @@ ex `folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'`
 ex `folder_path = r'F:\caferoo\202306__'`
 
 
-+ 3. run your script by calling out the script from your terminal `python3 gdrive.py`
+3. run your script by calling out the script from your terminal `python3 gdrive.py`
 note make sure you are on the right directory
+
+📖 How it works
 
 
 
