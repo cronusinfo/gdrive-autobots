@@ -29,9 +29,9 @@ drive_service = build('drive', 'v3', credentials=credentials)`
 + The link in the dialog box will contain the folder ID. It will be a part of the URL after the id= parameter.
 + For example, if the URL looks like: https://drive.google.com/drive/folders/ABC123XYZ456, then the folder ID is ABC123XYZ456
 + # Specify the folder ID where you want to upload the files
-ex `folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'`
++ ex `folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'`
 + Specify the folder path from which you want to upload the files
-ex `folder_path = r'F:\caferoo\202306__'`
++ ex `folder_path = r'F:\caferoo\202306__'`
 
 3. run your script by calling out the script from your terminal 
 + `python3 gdrive.py`
