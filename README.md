@@ -31,7 +31,7 @@ ex `folder_id = '1reYil3itb55X1JcEvIKeRyskEAholhiI'`
 ex `folder_path = r'F:\caferoo\202306__'`
 
 
-+ 3. run your script by calling your from your terminal `python3 gdrive.py`
++ 3. run your script by calling out the script from your terminal `python3 gdrive.py`
 note make sure you are on the right directory
 
 
